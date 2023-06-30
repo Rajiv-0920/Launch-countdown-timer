@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Launch countdown timer</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="script.js" defer></script>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 10px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="title">We're launching soon</h1>
+      <div class="countdown">
+        <div class="flip-container">
+          <div class="top">
+            <span class="top-num top-days">00</span>
+            <span class="top-num-next top-days-next">00</span>
+          </div>
+          <div class="bottom">
+            <span class="bottom-num bottom-days">00</span>
+            <span class="bottom-num-next bottom-days-next">00</span>
+          </div>
+          <p class="meta-title">Days</p>
+        </div>
+        <div class="flip-container">
+          <div class="top">
+            <span class="top-num top-hours">00</span>
+            <span class="top-num-next top-hours-next">00</span>
+          </div>
+          <div class="bottom">
+            <span class="bottom-num bottom-hours">00</span>
+            <span class="bottom-num-next bottom-hours-next">00</span>
+          </div>
+          <p class="meta-title">Hours</p>
+        </div>
+        <div class="flip-container">
+          <div class="top">
+            <span class="top-num top-minutes">00</span>
+            <span class="top-num-next top-min-next">00</span>
+          </div>
+          <div class="bottom">
+            <span class="bottom-num bottom-minutes">00</span>
+            <span class="bottom-num-next bottom-min-next">00</span>
+          </div>
+          <p class="meta-title">Minutes</p>
+        </div>
+        <div class="flip-container">
+          <div class="top">
+            <span class="top-num top-seconds">00</span>
+            <span class="top-num-next top-sec-next">00</span>
+          </div>
+          <div class="bottom">
+            <span class="bottom-num bottom-seconds">00</span>
+            <span class="bottom-num-next bottom-sec-next">00</span>
+          </div>
+          <p class="meta-title">Seconds</p>
+        </div>
+      </div>
+      <!-- <div class="links">
+        <ul class="social-icons">
+          <li><img src="./images/icon-facebook.svg" alt="facebook" /></li>
+          <li>
+            <img src="./images/icon-pinterest.svg" alt="pinterest" />
+          </li>
+          <li><img src="./images/icon-instagram.svg" alt="instagram" /></li>
+        </ul>
+      </div> -->
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
+  </body>
+</html>
